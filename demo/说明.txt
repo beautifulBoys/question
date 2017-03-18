@@ -1,0 +1,3 @@
+如果用电脑浏览，请双击index.html
+
+如果用Chrome手机模式，请双击index1.html
