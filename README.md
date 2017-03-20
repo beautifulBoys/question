@@ -8,6 +8,7 @@
 ## 项目预览
 
   电脑：https://beautifulboys.github.io/html/question/question1/
+
   手机：
   <p align="center">
     <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/question.png"/>
@@ -16,11 +17,11 @@
 ## 项目图片展示
 
   <p align="center">
-    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/1111.jpg" width="270px"/>
-    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/2222.jpg" width="270px"/>
-    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/3333.jpg" width="270px"/>
-    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/4444.jpg" width="270px"/>
-    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/5555.jpg" width="270px"/>
+    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/1111.jpg" width="270px" border="1px solid #333"/>
+    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/2222.jpg" width="270px" border="1px solid #333"/>
+    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/3333.jpg" width="270px" border="1px solid #333"/>
+    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/4444.jpg" width="270px" border="1px solid #333"/>
+    <img src="https://raw.githubusercontent.com/beautifulBoys/beautifulBoys.github.io/master/source/question/5555.jpg" width="270px" border="1px solid #333"/>
   </p>
 
 
