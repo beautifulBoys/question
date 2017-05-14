@@ -171,13 +171,13 @@
         this.qIndexChange();
       }
     },
+    */
     mounted () {
-      for (var i = 0; i < this.data.length; i++) {
+      for (var i = 0, j = this.$store.state.questionList.length; i < j; i++) {
         this.collectionList.push(false);
         this.allQuestionState.push({id: i, state: 1});// state 1:未做   2:对    3:错
       }
     },
-    */
     methods: {
       checkEvent (num) {
         if (!this.questionList[this.$store.state.qIndex]) { // 判断当前题目是否做过
@@ -294,7 +294,6 @@
       }
     }
   };
-
 </script>
 
 <style lang="less" scoped>
