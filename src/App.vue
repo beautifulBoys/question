@@ -1,3 +1,6 @@
+/*
+	暂时vuex分支仍然没有修改完毕
+*/
 <template>
     <div>
         <div class="box">
