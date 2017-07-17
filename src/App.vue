@@ -5,37 +5,15 @@
         <div>
           <h5>{{qIndex + 1}}. {{data[qIndex].title}}</h5>
           <ul>
-            <li v-for="(a, index1) in data[qIndex].items" v-if="index1 === 0" @click="checkEvent(index1)"
-                :class="[{active: activeIndex === index1}, {color1: index1 === rightIndex}, {color2: index1 === errorIndex}]">
-              <span :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">A</span> {{a}}
-            </li>
-            <li v-for="(a, index1) in data[qIndex].items" v-if="index1 === 1" @click="checkEvent(index1)"
-                :class="[{active: activeIndex === index1}, {color1: index1 === rightIndex}, {color2: index1 === errorIndex}]">
-              <span :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">B</span> {{a}}
-            </li>
-            <li v-for="(a, index1) in data[qIndex].items" v-if="index1 === 2" @click="checkEvent(index1)"
-                :class="[{active: activeIndex === index1}, {color1: index1 === rightIndex}, {color2: index1 === errorIndex}]">
-              <span :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">C</span> {{a}}
-            </li>
-            <li v-for="(a, index1) in data[qIndex].items" v-if="index1 === 3" @click="checkEvent(index1)"
-                :class="[{active: activeIndex === index1}, {color1: index1 === rightIndex}, {color2: index1 === errorIndex}]">
-              <span :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">D</span> {{a}}
-            </li>
-            <li v-for="(a, index1) in data[qIndex].items" v-if="index1 === 4" @click="checkEvent(index1)"
-                :class="[{active: activeIndex === index1}, {color1: index1 === rightIndex}, {color2: index1 === errorIndex}]">
-              <span :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">E</span> {{a}}
-            </li>
-            <li v-for="(a, index1) in data[qIndex].items" v-if="index1 === 5" @click="checkEvent(index1)"
-                :class="[{active: activeIndex === index1}, {color1: index1 === rightIndex}, {color2: index1 === errorIndex}]">
-              <span :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">F</span> {{a}}
-            </li>
-            <li v-for="(a, index1) in data[qIndex].items" v-if="index1 === 6" @click="checkEvent(index1)"
-                :class="[{active: activeIndex === index1}, {color1: index1 === rightIndex}, {color2: index1 === errorIndex}]">
-              <span :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">G</span> {{a}}
-            </li>
-            <li v-for="(a, index1) in data[qIndex].items" v-if="index1 === 7" @click="checkEvent(index1)"
-                :class="[{active: activeIndex === index1}, {color1: index1 === rightIndex}, {color2: index1 === errorIndex}]">
-              <span :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">H</span> {{a}}
+           <li v-for="(a, index1) in data[qIndex].items" @click="checkEvent(index1)" :class="{active: activeIndex === index1, color1: index1 === rightIndex, color2: index1 === errorIndex}">
+              <span v-if="index1 === 0" :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">A</span>
+              <span v-if="index1 === 1" :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">B</span>
+              <span v-if="index1 === 2" :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">C</span>
+              <span v-if="index1 === 3" :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">D</span>
+              <span v-if="index1 === 4" :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">E</span>
+              <span v-if="index1 === 5" :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">F</span>
+              <span v-if="index1 === 6" :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">G</span>
+              <span v-if="index1 === 7" :class="[{sign1: index1 === rightIndex}, {sign2: index1 === errorIndex}, 'sign']">H</span> {{a}}
             </li>
           </ul>
         </div>
