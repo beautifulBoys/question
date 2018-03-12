@@ -7,7 +7,7 @@
 
 ## 项目预览
 
-  电脑：https://beautifulboys.github.io/html/question/question1/
+  电脑：https://beautifulboys.github.io/phone/question/question1/
 
   手机：
   <p align="center">
